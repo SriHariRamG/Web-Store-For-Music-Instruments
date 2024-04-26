@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuyerLogin  </title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<body>
+      <?php $msg=""; ?>
+      <div class="login_container">
+
+        <header class="login_header">
+          <nav class="login_navbar">
+             <span class="login_logo"><a href="home.html" class="login_anchor">WMI</a></span>
+          </nav>
+        </header>
+
+        <main class="login_main">
+          <div class ="login_form">
+  
+            <form method="POST">
+              <div class="login_formholder">    
+               <span class="login_signin">Sign In (Seller)</span>
+              <div class="login_section">
+                <input type="text" class="login_input" name="buyer_username" placeholder="Enter Username here.." required>
+              <input type="password" class="login_input" name="buyer_password" placeholder="Enter Password here.." required>
+              <button type="submit" name="buyer_login_submit" class="login_btn">Login</button>
+
+              <div class="login_register">Not a member?  <a href="register.html">  Register here..</a></div>
+              <div class="buyer_login_message" id='buyer_login_message' style="margin-left:auto;margin-right:auto;">  </div>
+              </div>
+              </div>   
+            </form>  
+          </div>
+      
+        </main>
+    
+    <footer class="login_footer">
+      <div class="login_copyright">
+          &copy; 2024 - Sri Hari Ram Corporation Limited  
+      </div>
+    </footer>   
+      </div>
+
+</body>
+</html>
